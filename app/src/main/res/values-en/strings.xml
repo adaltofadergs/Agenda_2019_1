@@ -5,15 +5,15 @@
     <string name="txtTelefone">Phone: </string>
     <string name="txtCidade">City: </string>
     <string name="txtSexo">Gender: </string>
-    <string name="txtFilhos">Tem Filhos</string>
-    <string name="txtFeminino">Feminino</string>
-    <string name="txtMasculino">Masculino</string>
+    <string name="txtFilhos">Children?</string>
+    <string name="txtFeminino">Female</string>
+    <string name="txtMasculino">Male</string>
 
-    <string name="hintNome">Digite aqui o Nome </string>
-    <string name="hintTelefone">Digite aqui o Telefone </string>
+    <string name="hintNome">Enter name </string>
+    <string name="hintTelefone">Enter phone </string>
 
     <string-array name="cidades">
-        <item>Selecione...</item>
+        <item>Select..</item>
         <item>Alvorada</item>
         <item>Canoas</item>
         <item>Capão da Canoa</item>
@@ -21,7 +21,7 @@
         <item>Viamão</item>
     </string-array>
 
-
+    <string name="txtAtencao">Atention</string>
 
 </resources>
 

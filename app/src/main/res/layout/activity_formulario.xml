@@ -47,12 +47,12 @@
             style="@style/labels"/>
 
         <EditText
+            style="@style/campos"
+            android:id="@+id/etNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hintNome"
-            android:inputType="textCapWords"
-            style="@style/campos"
-            />
+            android:inputType="textCapWords" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hintTelefone"
+            android:id="@+id/etTelefone"
             android:inputType="phone"
             style="@style/campos"
             />
@@ -78,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/cidades"
+            android:id="@+id/spCidade"
             >
 
         </Spinner>
@@ -100,12 +102,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/txtFeminino"
+                    android:id="@+id/rbFeminino"
                     style="@style/campos"/>
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/txtMasculino"
+                    android:id="@+id/rbMasculino"
                     style="@style/campos"/>
 
             </RadioGroup>
@@ -116,11 +120,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtFilhos"
+            android:id="@+id/cbFilhos"
             style="@style/campos"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnSalvar"
             android:background="@android:drawable/ic_menu_save"
             android:layout_gravity="center_horizontal"/>
 
